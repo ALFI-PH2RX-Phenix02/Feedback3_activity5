@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:text="Question 1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60sp"
+        android:text="Which band of phone will you choose if you are going to buy a new one?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_groupQ1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="30sp">
+
+        <RadioButton
+            android:id="@+id/Q1_iPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="iPhone" />
+
+        <RadioButton
+            android:id="@+id/Q1_Nokia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Nokia" />
+
+        <RadioButton
+            android:id="@+id/Q1_Samsung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Samsung" />
+
+        <RadioButton
+            android:id="@+id/Q1_MI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="MI" />
+
+        <RadioButton
+            android:id="@+id/Q1_Lenovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Lenovo" />
+
+        <RadioButton
+            android:id="@+id/Q1_Sony"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Sony" />
+
+        <RadioButton
+            android:id="@+id/Q1_Others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Others" />
+    </RadioGroup>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_Q1"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="60sp"
+        android:background="@color/colorPrimary"
+        android:text="NEXT"
+        android:textSize="20sp" />
+</RelativeLayout>
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>

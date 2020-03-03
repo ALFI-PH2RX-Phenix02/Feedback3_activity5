@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:id="@+id/welcome1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO"
+        android:textSize="24sp"
+        android:layout_marginStart="40sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="30sp"
+        />
+    <TextView
+        android:id="@+id/welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome1"
+        android:text="TAKE PART IN OUR SURVEY!"
+        android:textSize="18sp"
+        android:layout_marginStart="40sp"
+        android:layout_marginLeft="40sp"
+        />
+    <TextView
+        android:id="@+id/welcome3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome2"
+        android:text="Before we start, here are things you should know:"
+        android:textSize="16sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="40sp"
+        />
+    <TextView
+        android:id="@+id/welcome4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome3"
+        android:text="Please be honest when making your choice."
+        android:textSize="16sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30sp"
+        />
+    <TextView
+        android:id="@+id/welcome5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome4"
+        android:text="-We are just doing research so you don't have to take your information"
+        android:textSize="16sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30sp"
+        />
+
+    <TextView
+        android:id="@+id/welcome6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome5"
+        android:text="-Please follow the step we designed for you and don't skip any questions."
+        android:textSize="16sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30sp"
+        />
+    <CheckBox
+        android:id="@+id/cb_check"
+        android:layout_width="300dp"
+        android:layout_height="40sp"
+        android:layout_below="@+id/welcome6"
+        android:text="I accept these requests."
+        android:textSize="16sp"
+        android:layout_marginStart="100sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="60sp"
+        android:layout_marginBottom="10sp"
+        />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="LET'S START!"
+        android:textSize="16sp"
+        android:background="@color/colorPrimary"
+
+        />
+    <!-- END    : Your code should be within this block -->
+</RelativeLayout>

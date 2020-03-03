@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--  Start : Your code should be within this block -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:text="Question 3"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60sp"
+        android:text="What kind of phone are you using?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_groupQ3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100sp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="30sp">
+
+        <RadioButton
+            android:id="@+id/Q3_2G"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="2G" />
+
+        <RadioButton
+            android:id="@+id/Q3_3G"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="3G" />
+
+        <RadioButton
+            android:id="@+id/Q3_4G"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="4G" />
+
+        <RadioButton
+            android:id="@+id/Q3_Others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Others" />
+
+    </RadioGroup>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_Q3"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="100sp"
+        android:background="@color/colorPrimary"
+        android:text="NEXT"
+        android:textSize="20sp" />
+</RelativeLayout>
+
+    <!-- END    : Your code should be within this block -->
+
+</LinearLayout>
